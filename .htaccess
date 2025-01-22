@@ -1,0 +1,12 @@
+ErrorDocument 404 https://b555resmi.github.io/b555/
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www.b555resmi.github.io/b555/$ [OR]
+RewriteCond %{HTTP_HOST} ^b555resmi.github.io/b555/$
+RewriteRule ^(.*)$ https://b555resmi.github.io/b555/the-best-online-gaming.html$1 [L,R=301]
+
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www.b555resmi.github.io/b555/$ [NC]
+RewriteRule ^(.*)$ https://b555resmi.github.io/b555/the-best-online-gaming.html$1 [L,R=301]
