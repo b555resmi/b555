@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://b555resmi.github.io/b555/
+Sitemap: https://b555resmi.github.io/b555/sitemap.xml
